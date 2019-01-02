@@ -1,0 +1,16 @@
+.idea/
+bin/
+node_modules/
+obj/
+typings/
+app-dist/
+build/
+*.vs
+*.user
+*.lock.json
+*.log
+*.js
+*.js.map
+**/dist
+**/PublishProfiles
+**/wwwroot

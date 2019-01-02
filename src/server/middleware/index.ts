@@ -1,0 +1,1 @@
+import { frontendMiddleware } from "./frontend.middleware";
