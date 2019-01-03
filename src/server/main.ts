@@ -14,10 +14,7 @@ async function bootstrap()
     app.setGlobalPrefix(AppConfig.API_URL);
     app.useGlobalInterceptors(new LoggingInterceptor());
     app.use(frontendMiddleware);
-
-    var service = app.get(ImageSyncService);
-    service.runJob();
-
+    
     await app.listen(AppConfig.PORT)
         .then(logApplicationStart);
 
