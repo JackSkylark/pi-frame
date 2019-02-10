@@ -1,1 +1,0 @@
-export { ApplicationConfig } from "./ApplicationConfig";
