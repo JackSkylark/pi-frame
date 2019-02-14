@@ -1,0 +1,17 @@
+{
+    "name": "@pi-frame/nest-logging-interceptor",
+    "version": "1.0.0",
+    "dependencies": {
+        "chalk": "^2.4.2"
+    },
+    "devDependencies": {
+        "@nestjs/common": "5.7.2",
+        "@nestjs/core": "5.7.2",
+        "rxjs": "6.4.0"
+    },
+    "peerDependencies": {
+        "@nestjs/common": "^5.7.2",
+        "@nestjs/core": "^5.7.2",
+        "rxjs": "^6.4.0"
+    }
+}

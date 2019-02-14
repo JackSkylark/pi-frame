@@ -1,0 +1,36 @@
+{
+    "name": "@pi-frame/bridge-server",
+    "version": "1.0.0",
+    "author": "John Slaughter",
+    "scripts": {
+        "start": "nodemon"
+    },
+    "dependencies": {
+        "@nestjs/core": "5.7.2",
+        "@nestjs/common": "5.7.2",
+        "@nestjs/mongoose": "5.2.2",
+        "@pi-frame/nest-logging-interceptor": "1.0.0",
+        "@pi-frame/nest-spa-middleware": "1.0.0",
+        "rxjs": "6.4.0",
+        "reflect-metadata": "0.1.12",
+        "express": "4.16.4",
+        "mongoose": "5.4.11"
+    },
+    "devDependencies": {
+        "@types/node": "10.12.18",
+        "@types/webpack": "4.4.22",
+        "@types/tapable": "0.2.5",
+        "@types/webpack-node-externals": "1.6.3",
+        "@types/express": "4.16.0",
+        "@types/mongoose": "5.3.12",
+        "webpack": "4.29.3",
+        "webpack-cli": "3.2.3",
+        "webpack-node-externals": "1.7.2",
+        "ts-loader": "5.3.2",
+        "json-loader": "0.5.7",
+        "file-loader": "3.0.1",
+        "ts-node": "7.0.1",
+        "typescript": "3.3.3",
+        "nodemon": "1.18.10"
+    }
+}
